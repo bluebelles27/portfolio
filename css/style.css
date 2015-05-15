@@ -83,20 +83,6 @@ table {
 		clear: both;
 	}
 	
-	.code-or-web {
-		display: table-cell;
-		vertical-align: middle;
-		text-align: center;
-	}
-		
-	.code-or-web li {
-		display: inline-block;
-	}
-	
-	.code-or-web li img {
-		max-width: 50%;
-	}
-	
 	.content-container {
 		background: #fff;
 		padding-top: 1px; /*  This is to prevent */
@@ -107,12 +93,7 @@ table {
 	.inner {
 		width: 80%;
 	}
-	
-	.options-container {
-		display: table;
-		margin: 0 auto;
-		width: 100%
-	}
+
 	
 	.page {
 		height: auto;
@@ -280,15 +261,6 @@ table {
 		margin-top: 50px; /* Adjusted for the fixed top nav. */
 	}
 	
-	.options-container {
-		height: 100%;
-		opacity: 0;
-		-webkit-transition: opacity 0.4s ease-in-out;
-		-moz-transition: opacity 0.4s ease-in-out;
-		-o-transition: opacity 0.4s ease-in-out;
-		transition: opacity 0.4s ease-in-out;
-	}
-	
 	.right {
 		margin-left: 2%;
 	}
@@ -340,24 +312,11 @@ table {
 	
 
 	/**  D-STATE  **/
-	.grid-hover {
-		height: 100%;
-		position: absolute;
-		  top: 0;
-		  right: 0;
-		width: 100%;
-	}
-
 	nav ul li a {
 		color: #555;
 		padding: 10px;
 		text-decoration: none;
 		text-transform: uppercase;
-	}
-	
-	.options-container:hover {
-		background-color: black;
-		opacity: .5;
 	}
 	
 	
