@@ -254,6 +254,17 @@ table {
 		max-width: 49%;
 		position: relative;
 	}
+
+	.skills-grid {
+		margin: 0 auto;
+		max-width: 49%;
+		position: relative;
+		width: 80%;
+	}
+
+	.jq-icon {
+		margin-left: 150px;
+	}
 	
 	#home {
 		margin-top: 50px; /* Adjusted for the fixed top nav. */
